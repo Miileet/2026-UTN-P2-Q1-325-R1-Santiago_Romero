@@ -40,8 +40,8 @@ public class GestionTransporte {
             return false;
         }
     }
-    gestionv.add(dato); // ← FALTABA ESTO
-    dato.calcularCostoBase(); // muestra el costo al registrar
+    gestionv.add(dato); 
+    dato.calcularCostoBase(); 
     System.out.println("Viaje registrado.");
     return true;
     }
